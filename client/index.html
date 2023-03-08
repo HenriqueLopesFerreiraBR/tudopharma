@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script src="./script.js"></script>
+    <title>API TudoPharma</title>
+
+</head>
+<body>
+    <h1>API TudoPharma</h1>
+    <div class="form-tudopharma">
+        <div class="import-pedido">
+        <label >Pedidos: </label><br>
+        <button class="btn-import-pedido" id="btn-pedidos" onclick="novoPedido()">Importar pedidos</button>
+        </div>
+        <div class="import-retorno">
+        <label >Retorno: </label><br>
+        <button class="btn-import-retorno" id="btn-retorno" onclick="Retorno()">Exportar Retorno</button>
+        </div>
+        <div class="import-nota">
+        <label >Nota: </label><br>
+        <button class="btn-import-nota" id="btn-nota" onclick="Notas()">Exportar Notas</button>
+        </div>
+    </div>
+
+</body>
+</html>
